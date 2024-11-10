@@ -18,7 +18,7 @@ router.post("/process-transaction", (req, res) => {
       },
       item_details: [
         {
-          price: req.body.totalHarga,
+          price: req.body.tiket,
           quantity: req.body.jumlah,
           name: req.body.tiket,
         },
